@@ -1,3 +1,3 @@
-Veebirakendused
+Veebirakendus
 ===============
 first commit
