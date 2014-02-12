@@ -1,3 +1,4 @@
 Veebirakendus
 ===============
-first commit
+Siia kirjutada ideesid, missugune rakendus luua:
+
