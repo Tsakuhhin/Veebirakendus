@@ -1,3 +1,12 @@
 Veebirakendus
 ===============
-LAN/lauamängude õhtute kokkusaamis-äpp.
+LAN/lauamï¿½ngude ï¿½htute kokkusaamis-ï¿½pp Tartu linna piires.
+TÃµmbepunktid:
+*Facebookiga integreeritud.
+*MÃ¤ngude valimine
+*Kellaaja valimine
+*Asukoha kokkuleppimine
+*Inimeste arvu eelistuste mÃ¤Ã¤ramine
+*Vajaliku riistvara teavitus.
+*...?
+*Profit.
