@@ -1,7 +1,7 @@
 Veebirakendus
 ===============
-LAN/lauam�ngude �htute kokkusaamis-�pp Tartu linna piires.
-Tõmbepunktid:
+LAN/lauam�ngude �htute kokkusaamis-�pp Tartu linna piires.\\
+Tõmbepunktid:\\
 *Facebookiga integreeritud.
 *Mängude valimine
 *Kellaaja valimine
