@@ -1,2 +1,7 @@
 Upload test
+<<<<<<< HEAD
 Toivo muudav seda
+=======
+
+Allan: Upload test completed!
+>>>>>>> 096dd6bee3a3ca3c8d8caea45ba3efa63f83b90a
