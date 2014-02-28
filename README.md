@@ -9,5 +9,5 @@ http://allantsakuhhin.wix.com/veebirakendus
 
 2. etapp  
 Rakendus testkeskonnas:  
-Projektiplaan:
+Projektiplaan: https://github.com/Tsakuhhin/Veebirakendus/wiki/Projektiplaan
 
