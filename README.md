@@ -8,7 +8,6 @@ Prototüüp:
 http://allantsakuhhin.wix.com/veebirakendus
 
 2. etapp  
-Rakendus testkeskonnas:
-
+Rakendus testkeskonnas:  
 Projektiplaan:
 
