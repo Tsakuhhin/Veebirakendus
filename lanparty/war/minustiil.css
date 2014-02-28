@@ -18,7 +18,7 @@ a
   	-moz-transition:1s;
   	-webkit-transition:1s;
   /* ...and now for the proper property */
-  transition:1s;
+ 	 transition:1s;
 }
 
 a:hover
@@ -30,3 +30,9 @@ a.active
 	color:black;
 }
 
+$(function(){
+    $('a.inactive').click(function(){
+        $('a').addClass('inactive');
+        $(this).removeClass('inactive').addClass('active');
+    });
+});
