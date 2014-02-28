@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+
+body
+{
+	background-color:#BB0000;
+	color:white;
+}
+a
+{
+	color:white;
+	style:font="bold";
+}
+a:hover
+{
+	color:black;	
+}
+
+
