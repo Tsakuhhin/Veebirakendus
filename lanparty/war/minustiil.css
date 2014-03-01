@@ -29,10 +29,3 @@ a.active
 {
 	color:black;
 }
-
-$(function(){
-    $('a.inactive').click(function(){
-        $('a').addClass('inactive');
-        $(this).removeClass('inactive').addClass('active');
-    });
-});
