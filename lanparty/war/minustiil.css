@@ -29,9 +29,13 @@ a.active
 	
 }
 
-/*tabeli lahtrid*/
+/*menüü*/
 .menubutton
 {
 	padding-right:15px;
 	padding-left:15px;
+}
+.menu
+{
+	text-align: center;
 }
