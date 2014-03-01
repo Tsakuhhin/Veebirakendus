@@ -1,29 +1,24 @@
+/*tausta ja teksti värv*/
 body
 {
 	background-color:#BB0000;
 	color:white;
 }
 
+/*lingid*/
 a
 {	
 	text-decoration:none;
 	color:white;
-	margin-right:30px;
 	font-family:Helvetica;
 	font-size:15px;
 	font-weight:bold;
-  /* First we need to help some browsers along for this to work.
-     Just because a vendor prefix is there, doesn't mean it will
-     work in a browser made by that vendor either, it's just for
-     future-proofing purposes I guess. */
   	-o-transition:1s;
   	-ms-transition:1s;
   	-moz-transition:1s;
   	-webkit-transition:1s;
-  /* ...and now for the proper property */
  	 transition:1s;
 }
-
 a:hover
 {
 	color:black;	
@@ -31,4 +26,12 @@ a:hover
 a.active
 {
 	color:black;
+	
+}
+
+/*tabeli lahtrid*/
+.menubutton
+{
+	padding-right:15px;
+	padding-left:15px;
 }
