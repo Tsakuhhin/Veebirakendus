@@ -8,7 +8,10 @@ a
 {	
 	text-decoration:none;
 	color:white;
-	style:font="bold";
+	margin-right:30px;
+	font-family:Helvetica;
+	font-size:15px;
+	font-weight:bold;
   /* First we need to help some browsers along for this to work.
      Just because a vendor prefix is there, doesn't mean it will
      work in a browser made by that vendor either, it's just for
