@@ -37,5 +37,15 @@ a.active
 }
 .menu
 {
-	text-align: center;
+	margin-top:50px;
+	margin-bottom:10px;
+	text-align:left;
+}
+
+/*logo*/
+.logo 
+{
+	margin-left:-40px;
+	margin-top:-60px;
+	float:left;
 }
