@@ -1,0 +1,192 @@
+/*tausta ja teksti värv*/
+/*body
+{
+	background-color:#BB0000;
+	color:white;
+}
+
+/*lingid
+a
+{	
+	text-decoration:none;
+	color:white;
+	font-family:Helvetica;
+	font-size:15px;
+	font-weight:bold;
+  	-o-transition:1s;
+  	-ms-transition:1s;
+  	-moz-transition:1s;
+  	-webkit-transition:1s;
+ 	 transition:1s;
+}
+a:hover
+{
+	color:black;	
+}
+a.active
+{
+	color:black;
+	
+}
+
+/*menüü
+.menubutton
+{
+	padding-right:15px;
+	padding-left:15px;
+}
+.menu
+{
+	margin-top:50px;
+	margin-bottom:10px;
+	text-align:left;
+}
+
+/*logo
+.logo 
+{
+	margin-left:-40px;
+	margin-top:-60px;
+	float:left;
+}*/
+
+/*tausta ja teksti värv*/
+body
+{
+	background-color:#BB0000;
+	color:white;
+	font-family:Helvetica;
+}
+
+/*lingid*/
+a
+{	
+	text-decoration:none;
+	color:white;
+	font-size:15px;
+	font-weight:bold;
+  	-o-transition:1s;
+  	-ms-transition:1s;
+  	-moz-transition:1s;
+  	-webkit-transition:1s;
+ 	 transition:1s;
+}
+a:hover
+{
+	color:black;	
+}
+a.active
+{
+	color:black;
+	
+}
+
+/*menüü*/
+.menubutton
+{
+	padding-right:15px;
+	padding-left:15px;
+}
+.menu
+{
+	margin-top:50px;
+	margin-bottom:10px;
+	text-align:left;
+}
+hr
+{
+	margin-left:0px;
+	width:637px;
+}
+
+/*logo*/
+.logo 
+{
+	margin-left:-40px;
+	margin-top:-60px;
+	float:left;
+}
+
+/*logimine*/
+.login1 
+{
+    margin-left:50px;
+    height: 124px;
+    width: 333px;
+}
+.login2 
+{
+    margin-left:75px;
+    margin-top:-40px;
+    height: 58px;
+    width: 280px;
+    
+}
+
+/*slogan*/
+.slogan
+{
+	width:350px;
+	margin-left:80px;
+	margin-top:120px;
+}
+
+/*hiljutised sündmused*/
+.last_events 
+{
+	margin-left:700px;
+	margin-top:-330px;
+    height: 397px;
+    width: 368px;
+}
+
+/*minu sündmused*/
+.my_events
+{
+	margin-top:55px;
+	float:left;
+    height: 303px;
+    width: 600px;
+}
+
+/*sündmused*/
+.event_type
+{
+	margin-top:50px;
+	margin-bottom:10px;
+    margin-left:300px;
+}
+.event_type > h2
+{
+	position:relative;
+	width:300px;
+	display:inline-block;
+}
+.events
+{
+	margin-left:300px;
+	margin-top:20px;
+	float:left;
+    height: 303px;
+    width: 636px;
+}
+
+/*lisa sündmus*/
+.add_event 
+{
+	margin-left:590px;
+	margin-top:84px;
+	text-align:left;
+    height: 421px;
+    width: 444px;
+    margin-right: 0px;
+}
+
+.search_event 
+{
+	margin-left:590px;
+	margin-top:84px;
+	text-align:left;
+    width: 444px;
+    margin-right: 0px;
+}

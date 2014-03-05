@@ -1,0 +1,132 @@
+﻿/*tausta ja teksti värv*/
+body
+{
+	background-color:#BB0000;
+	color:white;
+    height: 793px;
+}
+
+/*lingid*/
+a
+{	
+	text-decoration:none;
+	color:white;
+	font-family:Helvetica;
+	font-size:15px;
+	font-weight:bold;
+  	-o-transition:1s;
+  	-ms-transition:1s;
+  	-moz-transition:1s;
+  	-webkit-transition:1s;
+ 	 transition:1s;
+}
+a:hover
+{
+	color:black;	
+}
+a.active
+{
+	color:black;
+	
+}
+
+/*menüü*/
+.menubutton
+{
+	padding-right:15px;
+	padding-left:15px;
+}
+.menu
+{
+	margin-top:50px;
+	margin-bottom:10px;
+	text-align:left;
+}
+
+/*logo*/
+.logo 
+{
+	margin-left:-40px;
+	margin-top:-60px;
+	float:left;
+}
+
+/*logimine*/
+.login1 
+{
+	border-width: 0px;
+    margin-left:58px;
+	margin-top:-160px;
+	float:left;
+    height: 124px;
+    width: 333px;
+    margin-bottom: 0px;
+}
+.login2 
+{
+	border-width: 0px;
+    margin-left:-300px;
+	margin-top:0px;
+	float:left;
+    height: 58px;
+    width: 280px;
+    
+}
+
+/*hiljutised sündmused*/
+.last_events 
+{
+	margin-left:231px;
+	margin-top:-450px;
+	float:left;
+    height: 397px;
+    width: 368px;
+    margin-bottom: 0px;
+}
+
+.my_events
+{
+	margin-left:0px;
+	margin-top:55px;
+	float:left;
+    height: 303px;
+    width: 636px;
+    margin-bottom: 0px;
+}
+
+.event_type
+{
+	margin-top:50px;
+	margin-bottom:10px;
+    margin-left:300px;
+	text-align:left;
+}
+
+.events
+{
+	margin-left:300px;
+	margin-top:55px;
+	float:left;
+    height: 303px;
+    width: 636px;
+    margin-bottom: 0px;
+}
+
+.add_event 
+{
+	margin-left:590px;
+	margin-top:84px;
+	text-align:left;
+    height: 421px;
+    width: 444px;
+    margin-right: 0px;
+}
+
+.search_event 
+{
+	margin-left:590px;
+	margin-top:84px;
+	text-align:left;
+    width: 444px;
+    margin-right: 0px;
+}
