@@ -8,7 +8,7 @@ Prototüüp:
 http://allantsakuhhin.wix.com/veebirakendus
 
 2. etapp  
-Viki leht: https://github.com/Tsakuhhin/Veebirakendus/wiki/2.-etapp  
+https://github.com/Tsakuhhin/Veebirakendus/wiki/2.-etapp  
   
 
 
