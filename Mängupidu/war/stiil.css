@@ -39,38 +39,31 @@ a.active
 }
 
 /*MENÜÜ ja allailmuv alamenüü*/
-nav {
-	margin-top:50px;
-	margin-bottom:10px;
-}
-nav ul {
+
+div ul {
 	list-style: none;
 	position: relative;
 	display: inline-table;
 }
-nav ul:after {
+div ul:after {
 	content: ""; clear: both; display: block;
 }
-nav ul li {
+div ul li {
 	float: left;
-}/*
-nav ul li:hover {
-	background: #4b545f;
-}*/
-nav ul li:hover a {
+}
+div ul li:hover a {
 
 	}
-nav ul li:hover > ul {
+div ul li:hover > ul {
 	display: block;
 }
 	
-nav ul li a {
+div ul li a {
 	display: block; 
-	/*padding: 25px 40px;*/
 	padding-bottom:10px;
 	text-decoration: none;
 }
-nav ul ul {
+div ul ul {
 	display: none;
 	background:#BB0000;
 	border-radius: 0px; 
@@ -80,25 +73,25 @@ nav ul ul {
 	padding-right:15px;
 	padding-left:15px;
 }
-nav ul ul li {
+div ul ul li {
 	float: none; 
 }
-nav ul ul li a {
-	
+div ul ul li a {	
 	color: #fff;
 }	
 
 hr
 {
 	margin-left:0px;
-	width:637px;
+	width:680px;
+	margin-top:-20px;
 }
 
 /*logo*/
 .logo 
 {
-	margin-left:-40px;
-	margin-top:-60px;
+	margin-left:10px;
+	margin-top:-35px;
 	float:left;
 }
 
