@@ -41,6 +41,13 @@ a.active
 	margin-bottom:10px;
 	text-align:left;
 }
+menuhoverbutton, menuhoverbutton:visited, menuhoverbutton:active {
+	color:#fff; 
+	background:#00d; 
+	text-decoration:none;
+}
+menuhoverbutton:hover {color:#fff; background:#c00;}
+
 
 /*logo
 .logo 
@@ -93,6 +100,62 @@ a.active
 	margin-bottom:10px;
 	text-align:left;
 }
+
+/*MENÜÜ ja allailmuv alamenüü*/
+nav {
+	margin-top:50px;
+	margin-bottom:10px;
+}
+nav ul {
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+nav ul:after {
+	content: ""; clear: both; display: block;
+}
+nav ul li {
+	float: left;
+}/*
+nav ul li:hover {
+	background: #4b545f;
+}*/
+nav ul li:hover a {
+
+	}
+nav ul li:hover > ul {
+	display: block;
+}
+	
+nav ul li a {
+	display: block; 
+	/*padding: 25px 40px;*/
+	padding-bottom:10px;
+	text-decoration: none;
+}
+nav ul ul {
+	display: none;
+	background:#BB0000;
+	border-radius: 0px; 
+	padding: 0;
+	position: absolute;
+	top: 100%;
+	padding-right:15px;
+	padding-left:15px;
+}
+nav ul ul li {
+	float: none; 
+}
+nav ul ul li a {
+	
+	color: #fff;
+}	
+
+
+
+
+
+
 hr
 {
 	margin-left:0px;
