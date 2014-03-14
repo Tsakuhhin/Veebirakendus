@@ -11,6 +11,11 @@ http://allantsakuhhin.wix.com/veebirakendus
 https://github.com/Tsakuhhin/Veebirakendus/wiki/2.-etapp  
   
 3. etapp (teostamisel)  
-https://github.com/Tsakuhhin/Veebirakendus/wiki/3.-etapp
+https://github.com/Tsakuhhin/Veebirakendus/wiki/3.-etapp  
+  
+  
+  
+Kasulikud lingid veebirakenduste loomiseks  
+https://github.com/Tsakuhhin/Veebirakendus/wiki/Kasulikud-lingid
 
 
