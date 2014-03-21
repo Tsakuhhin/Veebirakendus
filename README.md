@@ -10,7 +10,7 @@ http://allantsakuhhin.wix.com/veebirakendus
 2. etapp  
 https://github.com/Tsakuhhin/Veebirakendus/wiki/2.-etapp  
   
-3. etapp (teostamisel)  
+3. etapp  
 https://github.com/Tsakuhhin/Veebirakendus/wiki/3.-etapp  
   
   
