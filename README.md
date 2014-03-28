@@ -14,10 +14,12 @@ https://github.com/Tsakuhhin/Veebirakendus/wiki/2.-etapp
 https://github.com/Tsakuhhin/Veebirakendus/wiki/3.-etapp  
  
 4. etapp  
-https://github.com/Tsakuhhin/Veebirakendus/wiki/4.-etapp
+https://github.com/Tsakuhhin/Veebirakendus/wiki/4.-etapp  
   
   
-  
+Testkeskkond: 
+http://mangupidu.herokuapp.com/ 
+
 Kasulikud lingid veebirakenduste loomiseks  
 https://github.com/Tsakuhhin/Veebirakendus/wiki/Kasulikud-lingid
 
