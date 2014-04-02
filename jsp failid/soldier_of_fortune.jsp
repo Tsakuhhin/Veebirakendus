@@ -8,17 +8,9 @@
     <title>Sündmused</title>
       </head>
 <body>
-<table>
-<tr><td><%@include file='header.jsp'%></td></tr>
-</table>
-<td><table>
-	
-	<tr><td><%@include file='soldier_of_fortune_title.jsp'%></td></tr>
-   	<tr><td><%@include file='soldier_of_fortune_data.jsp'%></td></tr>
-   	
-</table>
-
-
+<%@include file='header.jsp'%>
+<%@include file='soldier_of_fortune_title.jsp'%>
+<%@include file='soldier_of_fortune_data.jsp'%>
 </body>
  
 </html>

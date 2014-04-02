@@ -4,19 +4,13 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" type="text/css" href="stiil.css"/>
-    <title>Sündmused</title>
+    <title>Minu sündmused</title>
   </head>
 
-  <body>
-  <table>
-  	<tr><td><%@include file='header.jsp'%></td></tr>
-  </table>
-  <td><table>
-	
-	<tr><td><%@include file='minu_sundmused_title.jsp'%></td></tr>
-   	<tr><td><%@include file='minu_sundmused_data.jsp'%></td></tr>
-   
-   </table>
+ <body>
+<%@include file='header.jsp'%>
+<%@include file='minu_sundmused_title.jsp'%>
+<%@include file='minu_sundmused_data.jsp'%>
    </body>
 
 </html>

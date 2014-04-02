@@ -4,13 +4,13 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" type="text/css" href="stiil.css"/>
-    <title>Sündmused</title>
+    <title>Otsing</title>
   </head>
-  <body>
-  <%@include file='header.jsp'%>
-  <%@include file='sundmused_title.jsp'%>
-  <%@include file='sundmused_type.jsp'%>
-  <%@include file='sundmused_data.jsp'%>
 
-</body>
+ <body>
+<%@include file='header.jsp'%>
+<%@include file='otsing_title.jsp'%>
+<%@include file='otsing_data.jsp'%>
+   </body>
+
 </html>

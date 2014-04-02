@@ -1,4 +1,4 @@
-<script type="text/javascript">
+
   window.fbAsyncInit = function() {
   FB.init({
     appId      : '883589648333956',
@@ -55,4 +55,4 @@
       console.log('Good to see you, ' + response.name + '.');
     });
   }
-</script>
+

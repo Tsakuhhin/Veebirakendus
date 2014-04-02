@@ -7,16 +7,10 @@
     <title>Nädala sündmused</title>
       </head>
 <body>
-<table>
-<tr><td><%@include file='header.jsp'%></td></tr>
-</table>
-<td><table>
-	
-	<tr><td><%@include file='nadala_sundmused_title.jsp'%></td></tr>
-   	<tr><td><%@include file='nadala_sundmused_data.jsp'%></td></tr>
-   	
-</table>
 
+<%@include file='header.jsp'%>
+<%@include file='nadala_sundmused_title.jsp'%>
+<%@include file='nadala_sundmused_data.jsp'%>
 
 </body>
  

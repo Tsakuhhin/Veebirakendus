@@ -5,23 +5,14 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
     <link rel="stylesheet" type="text/css" href="stiil.css"/>
+    <script type="text/javascript" src="facebook.js"></script>
     <title>Mängupidu</title>
   </head>
-  <body>
-  <table>
-  <tr><td><%@include file='header.jsp'%></td></tr>
-  </table>
-  <td><table>
-	
-	<tr><td><%@include file='avaleht_slogan.jsp'%></td></tr>
-   	<tr><td><%@include file='avaleht_logging.jsp'%></td></tr>
-   	<tr><td><%@include file='facebook_logging.jsp'%></td></tr>
-   	<td><table>
-            <tr><td><%@include file='avaleht_hiljutised_uuendused.jsp'%></td></tr>
-         </table>
-      </td>
-</table>
-
+<body>
+  <%@include file='header.jsp'%>
+  <%@include file='avaleht_slogan.jsp'%>
+  <%@include file='avaleht_logging.jsp'%>
+  <%@include file='avaleht_hiljutised_uuendused.jsp'%>
 </body>
   
 </html>
