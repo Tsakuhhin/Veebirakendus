@@ -9,7 +9,7 @@
       </head>
 <body>
 <%@include file='header.jsp'%>
-<%@include file='soldier_of_fortune_title.jsp'%>
+<h1>Soldier of Fortune</h1>
 <%@include file='soldier_of_fortune_data.jsp'%>
 </body>
  

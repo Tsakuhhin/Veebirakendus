@@ -8,7 +8,7 @@
   </head>
   <body>
   <%@include file='header.jsp'%>
-  <%@include file='sundmused_title.jsp'%>
+  <h1>Sündmused</h1>
   <%@include file='sundmused_type.jsp'%>
   <%@include file='sundmused_data.jsp'%>
 

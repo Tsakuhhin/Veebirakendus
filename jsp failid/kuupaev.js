@@ -1,18 +1,18 @@
 var date_arr = new Array;
 var days_arr = new Array;
 
-date_arr[0]=new Option(01,31);
-date_arr[1]=new Option(02,28);
-date_arr[2]=new Option(03,31);
-date_arr[3]=new Option(04,30);
-date_arr[4]=new Option(05,31);
-date_arr[5]=new Option(06,30);
-date_arr[6]=new Option(07,31);
-date_arr[7]=new Option(08,30);
-date_arr[8]=new Option(09,30);
-date_arr[9]=new Option(10,31);
-date_arr[10]=new Option(11,31);
-date_arr[11]=new Option(12,30);
+date_arr[0]=new Option("Jaanuar",31);
+date_arr[1]=new Option("Veebruar",28);
+date_arr[2]=new Option("Märts",31);
+date_arr[3]=new Option("Aprill",30);
+date_arr[4]=new Option("Mai",31);
+date_arr[5]=new Option("Juuni",30);
+date_arr[6]=new Option("Juuli",31);
+date_arr[7]=new Option("August",30);
+date_arr[8]=new Option("September",30);
+date_arr[9]=new Option("Oktoober",31);
+date_arr[10]=new Option("November",31);
+date_arr[11]=new Option("Detsember",30);
 
 function fill_select(f)
 {

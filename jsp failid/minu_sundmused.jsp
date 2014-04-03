@@ -9,7 +9,7 @@
 
  <body>
 <%@include file='header.jsp'%>
-<%@include file='minu_sundmused_title.jsp'%>
+<h1>Minu sündmused</h1>
 <%@include file='minu_sundmused_data.jsp'%>
    </body>
 

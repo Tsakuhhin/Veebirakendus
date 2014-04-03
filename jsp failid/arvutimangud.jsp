@@ -8,7 +8,7 @@
 </head>
 <body>
 	<%@include file='header.jsp'%>
-	<%@include file='arvutimangud_title.jsp'%>
+	<h1>Arvutimängud</h1>
 	<%@include file='arvutimangud_data.jsp'%>
 </body>
 </html>

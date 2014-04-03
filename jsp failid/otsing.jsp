@@ -9,7 +9,7 @@
 
  <body>
 <%@include file='header.jsp'%>
-<%@include file='otsing_title.jsp'%>
+    <h1>Sündmuste otsing</h1>
 <%@include file='otsing_data.jsp'%>
    </body>
 
