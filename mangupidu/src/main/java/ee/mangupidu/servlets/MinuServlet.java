@@ -1,4 +1,4 @@
-package servlets;
+package ee.mangupidu.servlets;
 
 import java.io.IOException;
 import java.io.PrintWriter;
