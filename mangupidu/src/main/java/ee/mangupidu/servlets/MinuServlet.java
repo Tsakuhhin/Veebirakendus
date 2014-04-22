@@ -11,6 +11,10 @@ import javax.servlet.http.*;
 
 public class MinuServlet extends HttpServlet {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Connection con;
 	String dbDriver = "org.postgresql.Driver";
 	
