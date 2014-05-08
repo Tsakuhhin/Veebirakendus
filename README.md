@@ -18,6 +18,9 @@ https://github.com/Tsakuhhin/Veebirakendus/wiki/4.-etapp
   
 5. etapp  
 https://github.com/Tsakuhhin/Veebirakendus/wiki/5.-etapp  
+  
+6. etapp  
+
 
   
 Testkeskkond: 
