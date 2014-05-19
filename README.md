@@ -20,7 +20,10 @@ https://github.com/Tsakuhhin/Veebirakendus/wiki/4.-etapp
 https://github.com/Tsakuhhin/Veebirakendus/wiki/5.-etapp  
   
 6. etapp  
-https://github.com/Tsakuhhin/Veebirakendus/wiki/6.-etapp
+https://github.com/Tsakuhhin/Veebirakendus/wiki/6.-etapp  
+  
+7. etapp  
+https://github.com/Tsakuhhin/Veebirakendus/wiki/7.-etapp 
 
   
 Testkeskkond: 
