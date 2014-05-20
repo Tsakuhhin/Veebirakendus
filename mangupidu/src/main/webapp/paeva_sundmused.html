@@ -2,40 +2,40 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="windows-1252">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.css" rel="stylesheet" media="screen">
-    
-    <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
-    <script type="text/javascript" charset="utf-8" src="js/lugemineNadal.js"></script>
 
-    <title>Nädala sündmused</title>
+    <title>PÃ¤eva sÃ¼ndmused</title>
 
 
   </head>
 
   <body>
-  
-  <!-- HEADER -->
-  <div class="container">
-  		<div class="navbar">
-        	<%@include file='logo.jsp'%>
-        	<div class="nav" role="navigation">
-        		<div class="navbar navbar-inverse" role="navigation">
-					<div class="navbar-inner"></div>
-            	<%@include file='header.jsp'%>
-        		</div>
-    		</div>
-		</div>
-	</div>
+    <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+	<div class="navbar-inner">
+
+   </div>
+      <div class="container">
+        <%@include file='header.jsp'%>
+      </div><!-- /.container -->
+    </div><!-- /.navbar -->
 	
-	<!-- BODY -->
+		<!-- LOGO -->
+	<div class="container">
+		<%@include file='logo.jsp'%>
+	</div><!-- /.container -->
+	
     <div class="container">
 		
       <div class="row row-offcanvas row-offcanvas-right">
 		<div class="col-6 col-sm-6 col-lg-4">
-            <h2><img class="thumbnail" src="icons/week.png" alt="type_logo"/>Nädala sündmused</h2>
-			<%@include file='nadala_sundmused_data.jsp'%>
+            <h2><img class="thumbnail" src="icons/day.png" alt="type_logo"/>PÃ¤eva sÃ¼ndmused</h2>
+			  
+			  <!-- from database
+				  <div class="my_events" id="my_events"></div>
+				  from database -->
+				  
             </div><!--/span-->
         </div><!--/span-->
 
@@ -58,5 +58,8 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="offcanvas.js"></script>
 	
+	<script type="text/javascript" src="facebook.js"></script>
+    <script type="text/javascript" charset="utf-8" src="jquery.js"></script>
+    <script type="text/javascript" charset="utf-8" src="lugeminePaev.js"></script>
   </body>
 </html>

@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.css" rel="stylesheet" media="screen">
     
-    <script type="text/javascript" src="facebook.js"></script>
-    <script type="text/javascript" charset="utf-8" src="jquery.js"></script>
-    <script type="text/javascript" charset="utf-8" src="lugemineLauam.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/lugemineLauam.js"></script>
 
     <title>Lauamängud</title>
 
