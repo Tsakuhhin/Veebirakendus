@@ -1,0 +1,211 @@
+/*tausta ja teksti vï¿½rv*/
+body
+{
+	background-color:#BB0000;
+	color:white;
+	font-family:Helvetica;
+}
+
+/*lingid*/
+a
+{	
+	text-decoration:none;
+	color:white;
+	font-size:15px;
+	font-weight:bold;
+ 	transition:1s;
+}
+
+a:hover
+{
+	color:black;	
+}
+a.active
+{
+	color:black;
+	
+}
+
+/*menï¿½ï¿½*/
+.menubutton
+{
+	padding-right:15px;
+	padding-left:15px;
+}
+.menu
+{
+	margin-top:50px;
+	margin-bottom:10px;
+	text-align:left;
+}
+
+/*MENï¿½ï¿½ ja allailmuv alamenï¿½ï¿½*/
+
+div ul {
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+div ul:after {
+	content: ""; clear: both; display: block;
+}
+div ul li {
+	float: left;
+}
+div ul li:hover a {
+
+	}
+div ul li:hover > ul {
+	display: block;
+}
+	
+div ul li a {
+	display: block; 
+	padding-bottom:10px;
+	text-decoration: none;
+}
+div ul ul {
+	display: none;
+	background:#BB0000;
+	border-radius: 0px; 
+	padding: 0;
+	position: absolute;
+	top: 100%;
+	padding-right:15px;
+	padding-left:15px;
+}
+div ul ul li {
+	float: none; 
+}
+div ul ul li a {	
+	color: #fff;
+}	
+
+hr
+{
+	margin-left:0px;
+	width:680px;
+	margin-top:-20px;
+}
+
+/*logo*/
+.logo 
+{
+	margin-left:10px;
+	margin-top:-35px;
+	float:left;
+}
+
+/*logimine*/
+.fb-login-button 
+{
+    margin-left:130px;
+    margin-top:0px;
+    height: 150px;
+    width: 280px;
+    background:#FFFFFF;
+    border:8px solid;
+	border-radius:8px;
+    
+}
+
+/*slogan*/
+.slogan
+{
+	width:350px;
+	height:100px;
+	margin-left:130px;
+	margin-top:150px;
+}
+
+/*hiljutised sï¿½ndmused*/
+.last_events 
+{
+	margin-left:600px;
+	margin-top:-350px;
+    height: 397px;
+    width: 368px;
+}
+
+/*minu sï¿½ndmused*/
+.my_events
+{
+	margin-top:55px;
+	float:left;
+    height: 303px;
+    width: 600px;
+}
+
+/*sï¿½ndmused*/
+.event_type
+{
+	margin-top:50px;
+	margin-bottom:10px;
+    margin-left:260px;
+}
+
+.event_type > h2
+{
+	position:relative;
+	width:300px;
+	display:inline-block;
+}
+
+/*sündmuse tüübi logo*/
+.type_logo 
+{
+	margin-top:-15px;
+	float:left;
+	height: 50px;
+    width: 50px;
+    border: 8px solid transparent;
+}
+.events
+{
+	margin-left:260px;
+	margin-top:20px;
+	float:left;
+    height: 303px;
+    width: 636px;
+}
+
+/*lisa sï¿½ndmus*/
+.add_event 
+{
+	margin-left:260px;
+	margin-top:80px;
+	text-align:left;
+}
+.nupp
+{
+	
+	padding:5px;
+	display:inline-block;
+	border:outset 2px black;
+
+}
+
+.lisa
+{
+	margin-left:260px;
+	font-weight:bold;
+}
+
+.otsi
+{
+	margin-left:260px;
+	font-weight:bold;
+}
+
+.search_event 
+{
+	margin-left:260px;
+	margin-top:80px;
+	text-align:left;
+}
+
+.kuupaev_tavaline
+{
+	margin-left:0px;
+	font-weight:normal;
+}

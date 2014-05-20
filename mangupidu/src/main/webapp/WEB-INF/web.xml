@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+    id="WebApp_ID" version="2.5">
+    <display-name>Spring-Hibernate-Template</display-name>
+ 
+    <welcome-file-list>
+        <welcome-file>avaleht.jsp</welcome-file>
+    </welcome-file-list>
+	
+    <servlet>
+   		<servlet-name>andmetelisamine</servlet-name>
+    	<servlet-class>servlets.AndmeteLisamine</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>andmetelisamine</servlet-name>
+    	<url-pattern>/andmetelisamine</url-pattern>
+	</servlet-mapping>
+	
+    <servlet>
+   		<servlet-name>andmetelugemine</servlet-name>
+    	<servlet-class>servlets.AndmeteLugemine</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>andmetelugemine</servlet-name>
+    	<url-pattern>/andmetelugemine</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+   		<servlet-name>avalehtviimatiuuendatud</servlet-name>
+    	<servlet-class>servlets.AvalehtViimatiUuendatud</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>avalehtviimatiuuendatud</servlet-name>
+    	<url-pattern>/avalehtviimatiuuendatud</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+   		<servlet-name>arvutimlugemine</servlet-name>
+    	<servlet-class>servlets.ArvutimLugemine</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>arvutimlugemine</servlet-name>
+    	<url-pattern>/arvutimlugemine</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+   		<servlet-name>lauamlugemine</servlet-name>
+    	<servlet-class>servlets.LauamLugemine</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>lauamlugemine</servlet-name>
+    	<url-pattern>/lauamlugemine</url-pattern>
+	</servlet-mapping>
+    
+	
+	<servlet>
+   		<servlet-name>nadallugemine</servlet-name>
+    	<servlet-class>servlets.NadalLugemine</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>nadallugemine</servlet-name>
+    	<url-pattern>/nadallugemine</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+   		<servlet-name>paevlugemine</servlet-name>
+    	<servlet-class>servlets.PaevLugemine</servlet-class>
+	</servlet>
+	<servlet-mapping>
+    	<servlet-name>paevlugemine</servlet-name>
+    	<url-pattern>/paevlugemine</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+    <servlet>
+        <servlet-name>spring</servlet-name>
+        <servlet-class>
+            org.springframework.web.servlet.DispatcherServlet
+        </servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>classpath:applicationContext.xml</param-value>
+        </init-param>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>spring</servlet-name>
+        <url-pattern>/people/*</url-pattern>
+    </servlet-mapping>
+</web-app>
