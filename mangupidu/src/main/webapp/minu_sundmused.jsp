@@ -5,6 +5,8 @@
     <meta charset="windows-1252">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    
+    <script type="text/javascript" src="js/facebook.js"></script>
  
     <title>Minu sündmused</title>
 

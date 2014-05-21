@@ -4,7 +4,8 @@
     appId      : '883589648333956',
     status     : true, // check login status
     cookie     : true, // enable cookies to allow the server to access the session
-    xfbml      : true  // parse XFBML
+    xfbml      : true,  // parse XFBML
+    first_check : true
   });
 
   // Here we subscribe to the auth.authResponseChange JavaScript event. This event is fired
@@ -13,10 +14,11 @@
   // will be handled. 
   FB.Event.subscribe('auth.authResponseChange', function(response) {
     // Here we specify what we do with the response anytime this event occurs. 
-    if (response.status === 'connected') {
+    if (response.status === 'connected' && first_check) {
       // The response object is returned with a status field that lets the app know the current
       // login status of the person. In this case, we're handling the situation where they 
       // have logged in to the app.
+    	first_check = true;
     	window.location.href="minu_sundmused.jsp";
       testAPI();
     } else if (response.status === 'not_authorized') {
