@@ -47,9 +47,11 @@
 	
 		<!-- FOOTER -->
 	<div class="container">
-      <footer>
-        <p></p>
-      </footer>
+		<div class="col-6 col-sm-6 col-lg-12">
+	      <footer>
+	        <%@include file='footer.jsp'%>
+	      </footer>
+	    </div>
 	</div><!--/.container-->
 
 
