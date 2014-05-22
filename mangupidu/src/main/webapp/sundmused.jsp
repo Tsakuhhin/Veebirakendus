@@ -37,7 +37,7 @@
 			
           <div class="row">
 			
-            <div class="col-6 col-sm-6 col-lg-4">
+            <div class="col-6 col-sm-6 col-lg-5">
               <h2>Sündmused</h2>
 			  <%@include file='sundmused_data.jsp'%>
             </div><!--/span-->

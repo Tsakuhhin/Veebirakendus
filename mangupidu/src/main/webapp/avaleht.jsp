@@ -11,6 +11,7 @@
 	<title>Avaleht</title>
 
 
+
   </head>
 
   <body>
@@ -33,12 +34,11 @@
 		
       <div class="row row-offcanvas row-offcanvas-right">
 		
-		<div class="col-6 col-sm-6 col-lg-6">
+		<div class="col-6 col-sm-6 col-lg-7">
 			<div class="jumbotron">
 				<%@include file='avaleht_slogan.jsp'%>
 			</div>
-			<div class="col-6 col-sm-6 col-lg-8">
-				<h2>Logimine Facebook'iga</h2>
+			<div class="col-6 col-sm-6 col-lg-6">
 				<%@include file='avaleht_logging.jsp'%>
             </div><!--/span-->
 		</div>

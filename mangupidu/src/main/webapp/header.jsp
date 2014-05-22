@@ -21,7 +21,7 @@
 				<li><a href="nadala_sundmused.jsp">Nädala sündmused</a></li>
               </ul>
             </li>
-            <li><a href="minu_sundmused.jsp">Minu sündmused</a></li>
+            <!-- <li><a href="minu_sundmused.jsp">Minu sündmused</a></li> -->
 			<li><a href="lisa_sundmus.jsp">Lisa sündmus</a></li>
 			<li><a href="otsing.jsp">Sündmuste otsing</a></li>
           </ul>

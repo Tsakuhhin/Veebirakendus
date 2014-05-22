@@ -32,7 +32,7 @@
     <div class="container">
 		
       <div class="row row-offcanvas row-offcanvas-right">
-		<div class="col-6 col-sm-6 col-lg-4">
+		<div class="col-6 col-sm-6 col-lg-8">
             <h2>Sündmuse otsing</h2>
 			<%@include file='otsing_data.jsp'%>
 		</div><!--/span-->

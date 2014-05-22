@@ -33,7 +33,7 @@
     <div class="container">
 		
       <div class="row row-offcanvas row-offcanvas-right">
-		<div class="col-6 col-sm-6 col-lg-4">
+		<div class="col-6 col-sm-6 col-lg-5">
             <h2><img class="thumbnail" src="icons/pc.png" alt="type_logo"/>Arvutimängud</h2>
 			<%@include file='arvutimangud_data.jsp'%>
 				  
